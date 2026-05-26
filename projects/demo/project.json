@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "name": "demo",
+  "canvas": {
+    "width": 16,
+    "height": 24
+  },
+  "defaultFps": 4,
+  "sprites": ["mage_idle"],
+  "createdAt": "2026-05-26T00:00:00.000Z"
+}

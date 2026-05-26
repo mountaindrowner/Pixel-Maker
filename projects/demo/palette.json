@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "colors": [
+    { "id": "0", "hex": "#181818", "name": "outline" },
+    { "id": "1", "hex": "#ffd76b", "name": "hat-band" },
+    { "id": "2", "hex": "#3850a8", "name": "hat" },
+    { "id": "3", "hex": "#6878c0", "name": "robe-light" },
+    { "id": "4", "hex": "#485098", "name": "robe-dark" },
+    { "id": "a", "hex": "#f8c898", "name": "skin" }
+  ]
+}
