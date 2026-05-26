@@ -2,10 +2,17 @@
   "schemaVersion": 1,
   "colors": [
     { "id": "0", "hex": "#181818", "name": "outline" },
-    { "id": "1", "hex": "#ffd76b", "name": "hat-band" },
+    { "id": "1", "hex": "#ffd76b", "name": "gold" },
     { "id": "2", "hex": "#3850a8", "name": "hat" },
     { "id": "3", "hex": "#6878c0", "name": "robe-light" },
     { "id": "4", "hex": "#485098", "name": "robe-dark" },
-    { "id": "a", "hex": "#f8c898", "name": "skin" }
+    { "id": "5", "hex": "#6b3a1d", "name": "hair-brown" },
+    { "id": "6", "hex": "#b85a30", "name": "tunic-rust" },
+    { "id": "7", "hex": "#3a2a18", "name": "pants-darkbrown" },
+    { "id": "8", "hex": "#5c3818", "name": "boot-leather" },
+    { "id": "9", "hex": "#2080d8", "name": "mm-blue" },
+    { "id": "a", "hex": "#f8c898", "name": "skin" },
+    { "id": "b", "hex": "#88c8f8", "name": "mm-cyan" }
   ]
 }
+

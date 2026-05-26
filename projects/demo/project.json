@@ -6,6 +6,6 @@
     "height": 24
   },
   "defaultFps": 4,
-  "sprites": ["mage_idle"],
+  "sprites": ["mage_idle", "peasant_idle", "megaman_idle"],
   "createdAt": "2026-05-26T00:00:00.000Z"
 }
