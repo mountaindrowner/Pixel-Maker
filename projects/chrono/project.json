@@ -6,6 +6,9 @@
     "height": 40
   },
   "defaultFps": 4,
-  "sprites": ["knight_idle"],
+  "sprites": [
+    "knight_idle",
+    "magus_idle"
+  ],
   "createdAt": "2026-05-26T00:00:00.000Z"
 }
