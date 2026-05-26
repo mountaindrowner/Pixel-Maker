@@ -19,6 +19,12 @@ Then dip into the rest as needed:
 6. **[STYLE_REFERENCES.md](STYLE_REFERENCES.md)** — what specifically makes FF6, Chrono Trigger, NES Mega Man, Pokémon Gen 1, Stardew etc. look like themselves.
 7. **[ANIMATION.md](ANIMATION.md)** — idle vocabulary, key frames, squash and stretch.
 
+## Per-style deep dives
+
+When `STYLE_REFERENCES.md`'s summary isn't enough, the `STYLES/` subdirectory holds character-by-character breakdowns and workflow recipes:
+
+- **[STYLES/CHRONO.md](STYLES/CHRONO.md)** — Chrono Trigger. The four pillars (colored line work, 3-tone hue-shifted ramps, 1-pixel speculars, 12-color cap), each main party member (Crono, Marle, Lucca, Robo, Frog, Ayla, Magus) with their silhouette hallmark and palette signature, and an annotated walkthrough of the horned knight sprite.
+
 ## Curated palettes
 
 `palettes/` holds ready-to-use palette JSONs matching our sprite schema. Drop one into a new project's `palette.json` to start with a coherent color set instead of inventing one from scratch (which is a beginner trap).

@@ -36,6 +36,8 @@ What specifically makes the most iconic pixel art styles look like themselves. U
 
 **To target this style:** 32 px tall, design a 12-color palette where each material has 3 tones plus a darker outline color, use the colored outline approach instead of black, add 1-pixel specular dots on shiny surfaces.
 
+See [`STYLES/CHRONO.md`](STYLES/CHRONO.md) for a character-by-character breakdown (Crono, Marle, Lucca, Robo, Frog, Ayla, Magus), a workflow recipe, and an annotated walkthrough of the existing horned knight sprite.
+
 ## NES Mega Man (1987)
 
 **Canvas:** 24 px tall.
