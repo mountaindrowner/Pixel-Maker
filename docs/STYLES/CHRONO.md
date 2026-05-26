@@ -94,7 +94,17 @@ The 1:5 head-to-body ratio is the baseline — head is roughly the top 20% of th
 
 If your CT character has the same body shape as every other CT character you've drawn, you've left the most identifying lever on the table.
 
+## Composition — cape behind, body in front
+
+The single biggest mistake when drawing a CT-style caped character is letting the cape become a robe — wrapping the figure and hiding the body. CT capes attach at the shoulders and hang behind. The body is fully visible in front of the cape, with arms, hands, belt, pants, and boots all reading clearly. Cape and body are two stacked silhouettes, not one merged shape.
+
+The mental test: if you covered the cape with your finger, the standing figure underneath should still be a complete character — full silhouette, all limbs visible, clothing and armor readable. If covering the cape reveals just a torso-shaped blob, the cape has eaten the figure.
+
+This applies to Magus, Frog, Crono (whose much shorter element is the gi collar), and any other caped CT character. The horned knight in `projects/chrono/sprites/knight_idle.sprite.json` violates this — its "cape" is really a robe that swallows the body. That's the chibi mistake; do the opposite.
+
 ## The party — character-by-character
+
+> The entries below were originally drafted from memory, which is fallible. When targeting a specific CT character, **find a canonical reference first** — costume colors, helm shapes, and cape attachment points are easy to misremember. The Magus entry was rewritten after the first sprite attempt revealed several gaps (the cape isn't purple, it's red; the silver "hair" is mostly a hair-flag behind a purple helm). Treat the other entries as starting hypotheses to verify, not ground truth.
 
 Each entry: **silhouette hallmark** (the one shape that identifies them from across the screen) / **palette signature** (the two colors a fan would name in a heartbeat) / **iconic features** (1–3 design moves that say "this is them") / **construction notes** (the order to build the sprite).
 
@@ -142,10 +152,10 @@ Each entry: **silhouette hallmark** (the one shape that identifies them from acr
 
 ### Magus
 
-- **Silhouette hallmark:** a tall, lanky figure dominated by a long cape that flares wider than his shoulders, with a scythe extending the vertical line.
-- **Palette signature:** purple/violet cape + dark blue armor + silver-white hair.
-- **Iconic features:** (1) the cape (the largest shape in the silhouette), (2) the scythe held vertical, (3) the long silver-white hair that contrasts against the dark costume.
-- **Construction:** push him taller than the others — 36px instead of 32 if your canvas allows. The cape silhouette should bell out at the bottom, not hang straight. Hair gets its own 3-tone ramp with a near-white highlight to pop against the dark cape.
+- **Silhouette hallmark:** three stacked layers — purple two-prong helm on top, a horizontal silver hair-flag streaming out behind the head, and a red cape hanging behind the shoulders. The prongs read first, the hair flag second, the cape third.
+- **Palette signature:** purple helm + red cape + bronze chest armor. (Silver hair is the accent that ties the silhouette together; it is not the palette signature on its own.)
+- **Iconic features:** (1) the two-prong purple helm, (2) the horizontal silver hair flowing out behind it, (3) bronze chest armor split top-and-bottom over an exposed muscular midriff and bare arms, (4) red glowing eyes (1 pixel each — the iconic detail), (5) the red-edged curved scythe.
+- **Construction:** he is NOT a robe-wrapped sorcerer — he is a muscular warlord wearing armor. The cape attaches at the shoulders and hangs behind only; the body is fully visible in front of it, arms and midriff exposed. Don't drape a tunic over the midriff — Magus shows skin between the upper and lower bronze plates. Purple pants (matching the helm) tuck into brown boots with a gold band at the top. Eyes get a single red-glow pixel each, not the usual void-pupil treatment. Scythe held in one hand, blade hooked above; the blade's interior surface is red while its cutting edge is bright/white (two-tone blade).
 
 ## Workflow — designing a new CT character from scratch
 
