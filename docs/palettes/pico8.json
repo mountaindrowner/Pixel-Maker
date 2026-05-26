@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "colors": [
+    { "id": "0", "hex": "#000000", "name": "black" },
+    { "id": "1", "hex": "#1d2b53", "name": "dark-blue" },
+    { "id": "2", "hex": "#7e2553", "name": "dark-purple" },
+    { "id": "3", "hex": "#008751", "name": "dark-green" },
+    { "id": "4", "hex": "#ab5236", "name": "brown" },
+    { "id": "5", "hex": "#5f574f", "name": "dark-grey" },
+    { "id": "6", "hex": "#c2c3c7", "name": "light-grey" },
+    { "id": "7", "hex": "#fff1e8", "name": "white" },
+    { "id": "8", "hex": "#ff004d", "name": "red" },
+    { "id": "9", "hex": "#ffa300", "name": "orange" },
+    { "id": "a", "hex": "#ffec27", "name": "yellow" },
+    { "id": "b", "hex": "#00e436", "name": "green" },
+    { "id": "c", "hex": "#29adff", "name": "blue" },
+    { "id": "d", "hex": "#83769c", "name": "lavender" },
+    { "id": "e", "hex": "#ff77a8", "name": "pink" },
+    { "id": "f", "hex": "#ffccaa", "name": "peach" }
+  ]
+}

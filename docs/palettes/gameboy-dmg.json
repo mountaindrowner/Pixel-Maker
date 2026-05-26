@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "colors": [
+    { "id": "0", "hex": "#0f380f", "name": "gb-darkest" },
+    { "id": "1", "hex": "#306230", "name": "gb-dark" },
+    { "id": "2", "hex": "#8bac0f", "name": "gb-light" },
+    { "id": "3", "hex": "#9bbc0f", "name": "gb-lightest" }
+  ]
+}

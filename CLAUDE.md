@@ -2,14 +2,37 @@
 
 A constrained pixel-art editor. Sprites are stored as `.sprite.json` files that you (Claude) can read and write directly — that's the whole point. The web editor visualizes and refines what you produce.
 
+## Before you generate a sprite — read the art docs
+
+The `/docs/` directory holds the distilled pixel art knowledge that should inform every sprite you write. Read **at minimum**:
+
+- [`docs/README.md`](docs/README.md) — index and quickstart.
+- [`docs/CHARACTER_DESIGN.md`](docs/CHARACTER_DESIGN.md) — silhouette, proportions, iconic features, sprite size guide.
+- [`docs/COLOR.md`](docs/COLOR.md) — the 3-tone rule and hue-shift discipline.
+
+If the user names a specific style (FF6, Chrono Trigger, Mega Man, etc.), also read [`docs/STYLE_REFERENCES.md`](docs/STYLE_REFERENCES.md) and target that style's specific constraints.
+
+### Pre-flight checklist for every new sprite
+
+- [ ] **Silhouette readable as the character?** Mental test: fill with one color, can you still tell what it is?
+- [ ] **1–3 iconic features identified and emphasized?** What makes this character recognizable in one glance?
+- [ ] **Light source picked?** Consistent with other sprites in the same project (default: upper-left).
+- [ ] **3 tones per material** (shadow + midtone + highlight) **with hue shift** (shadows toward blue/purple, highlights toward yellow)? Flat single-tone fills are the mark of an apprentice.
+- [ ] **Eyes 1×1 with optional glint** (or 2×2 ONLY in the NES Mega Man template style with white surround)?
+- [ ] **No pillow shading** (shadow wrapped around the silhouette regardless of light direction)?
+- [ ] **No "doubles" / jaggies** on outlines (single-pixel lines with symmetric curve segments)?
+
+The demo sprites in `projects/demo/sprites/` (mage, peasant, megaman) violate most of these. They're the "before" baseline — don't imitate them, do better.
+
 ## The loop
 
 1. User asks: "make me a FF6-style mage sprite"
-2. You write `projects/<project>/sprites/<name>.sprite.json` directly with the `Write` tool
-3. Run `npm run validate projects/<project>/sprites/<name>.sprite.json` to check
-4. Run `npm run sync-pngs` to generate the matching `.png` preview
-5. User opens the editor (`npm run dev` → http://127.0.0.1:5173/) to view/refine
-6. The editor's SSE channel auto-refreshes when you write new files
+2. Read the docs above and the project's `palette.json` for context
+3. You write `projects/<project>/sprites/<name>.sprite.json` directly with the `Write` tool
+4. Run `npm run validate projects/<project>/sprites/<name>.sprite.json` to check
+5. Run `npm run sync-pngs` to generate the matching `.png` preview
+6. User opens the editor (`npm run dev` → http://127.0.0.1:5173/) to view/refine
+7. The editor's SSE channel auto-refreshes when you write new files
 
 ## File format
 

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "colors": [
+    { "id": "0", "hex": "#181818", "name": "outline-near-black" },
+    { "id": "1", "hex": "#3a2820", "name": "leather-dark" },
+    { "id": "2", "hex": "#6b3a1d", "name": "leather-mid" },
+    { "id": "3", "hex": "#b85a30", "name": "tunic-rust" },
+    { "id": "4", "hex": "#e08838", "name": "tunic-rust-highlight" },
+    { "id": "5", "hex": "#7a3018", "name": "tunic-rust-shadow" },
+    { "id": "6", "hex": "#a06848", "name": "skin-shadow" },
+    { "id": "7", "hex": "#f8c898", "name": "skin-mid" },
+    { "id": "8", "hex": "#fff0c8", "name": "skin-highlight" },
+    { "id": "9", "hex": "#3a3868", "name": "metal-shadow" },
+    { "id": "a", "hex": "#a8a8c0", "name": "metal-mid" },
+    { "id": "b", "hex": "#f0f0e0", "name": "metal-highlight" },
+    { "id": "c", "hex": "#5a2818", "name": "hair-dark-brown" },
+    { "id": "d", "hex": "#8a4820", "name": "hair-mid-brown" },
+    { "id": "e", "hex": "#ffd76b", "name": "gold" },
+    { "id": "f", "hex": "#c08838", "name": "gold-shadow" }
+  ]
+}
