@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "colors": [
+    { "id": "0", "hex": "#1a1820", "name": "void-deepest" },
+    { "id": "1", "hex": "#3a4868", "name": "armor-shadow" },
+    { "id": "2", "hex": "#7888a0", "name": "armor-mid" },
+    { "id": "3", "hex": "#c8d4e0", "name": "armor-hi" },
+    { "id": "4", "hex": "#ffffff", "name": "spec-white" },
+    { "id": "5", "hex": "#8a5018", "name": "gold-shadow" },
+    { "id": "6", "hex": "#e0a830", "name": "gold-mid" },
+    { "id": "7", "hex": "#ffe890", "name": "gold-hi" },
+    { "id": "8", "hex": "#5a1830", "name": "cape-shadow" },
+    { "id": "9", "hex": "#a82848", "name": "cape-mid" },
+    { "id": "a", "hex": "#e84878", "name": "cape-hi" }
+  ]
+}
