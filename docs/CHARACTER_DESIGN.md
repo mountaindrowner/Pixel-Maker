@@ -41,6 +41,8 @@ Real human proportions are about 7.5 heads tall. Pixel art proportions are almos
 
 The bigger the head relative to body, the more "cute" the character feels. Adjust to taste. Heroes are often slightly more realistic-proportioned; sidekicks and townspeople are often more chibi.
 
+For pixel-budget rules per limb at each figure scale, joint-dot placement, contrapposto stance, and hand/foot vocabulary, see [`ANATOMY.md`](ANATOMY.md). That doc is where the rules-of-thumb for limb width, elbow position, and weight shift live — this section just sets the head:body baseline.
+
 **Feminine vs masculine silhouette** at chibi scale:
 - Feminine: smaller upper torso, hips slightly wider than shoulders, hourglass curve.
 - Masculine: bigger shoulders, narrowing toward hips, triangle from top down.

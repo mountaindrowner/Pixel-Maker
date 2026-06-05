@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "colors": [
+    { "id": "0", "hex": "#1a1820", "name": "outline-dark" },
+    { "id": "1", "hex": "#a07868", "name": "skin-shadow" },
+    { "id": "2", "hex": "#e0b89c", "name": "skin-mid" },
+    { "id": "3", "hex": "#f8d8c0", "name": "skin-hi" },
+    { "id": "4", "hex": "#283050", "name": "tunic-shadow" },
+    { "id": "5", "hex": "#5878a8", "name": "tunic-mid" },
+    { "id": "6", "hex": "#88a8d0", "name": "tunic-hi" },
+    { "id": "7", "hex": "#3a2818", "name": "pants-shadow" },
+    { "id": "8", "hex": "#6a4828", "name": "pants-mid" },
+    { "id": "9", "hex": "#1a0c08", "name": "boots-dark" },
+    { "id": "a", "hex": "#5a3818", "name": "hair-mid" },
+    { "id": "b", "hex": "#8a5828", "name": "hair-hi" }
+  ]
+}

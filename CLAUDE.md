@@ -8,6 +8,7 @@ The `/docs/` directory holds the distilled pixel art knowledge that should infor
 
 - [`docs/README.md`](docs/README.md) — index and quickstart.
 - [`docs/CHARACTER_DESIGN.md`](docs/CHARACTER_DESIGN.md) — silhouette, proportions, iconic features, sprite size guide.
+- [`docs/ANATOMY.md`](docs/ANATOMY.md) — limb widths, joint dots, contrapposto stance, hand and foot vocabulary. The fix for columnar limbs and soldier-stance.
 - [`docs/COLOR.md`](docs/COLOR.md) — the 3-tone rule and hue-shift discipline.
 
 If the user names a specific style (FF6, Chrono Trigger, Mega Man, etc.), also read [`docs/STYLE_REFERENCES.md`](docs/STYLE_REFERENCES.md) and target that style's specific constraints. For Chrono Trigger specifically, also read [`docs/STYLES/CHRONO.md`](docs/STYLES/CHRONO.md) — character-by-character breakdowns and a workflow recipe.

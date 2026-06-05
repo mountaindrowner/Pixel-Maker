@@ -10,14 +10,15 @@ Read in this order before writing a sprite from scratch:
 
 1. **[MINDSET_AND_WORKFLOW.md](MINDSET_AND_WORKFLOW.md)** — how to think and what order to work in.
 2. **[CHARACTER_DESIGN.md](CHARACTER_DESIGN.md)** — silhouette, proportions, the sprite-size guide, iconic features.
-3. **[COLOR.md](COLOR.md)** — the 3-tone rule and the hue-shift discipline that turns muddy art into vivid art.
-4. **[SHADING.md](SHADING.md)** — the five basic shapes and how to avoid pillow shading.
+3. **[ANATOMY.md](ANATOMY.md)** — limb pixel budgets, joint dots, contrapposto stance, hand and foot vocabulary. The fix for columnar limbs and soldier-stance.
+4. **[COLOR.md](COLOR.md)** — the 3-tone rule and the hue-shift discipline that turns muddy art into vivid art.
+5. **[SHADING.md](SHADING.md)** — the five basic shapes and how to avoid pillow shading.
 
 Then dip into the rest as needed:
 
-5. **[LINEWORK_AND_OUTLINES.md](LINEWORK_AND_OUTLINES.md)** — clean lines, no jaggies, outline strategies.
-6. **[STYLE_REFERENCES.md](STYLE_REFERENCES.md)** — what specifically makes FF6, Chrono Trigger, NES Mega Man, Pokémon Gen 1, Stardew etc. look like themselves.
-7. **[ANIMATION.md](ANIMATION.md)** — idle vocabulary, key frames, squash and stretch.
+6. **[LINEWORK_AND_OUTLINES.md](LINEWORK_AND_OUTLINES.md)** — clean lines, no jaggies, outline strategies.
+7. **[STYLE_REFERENCES.md](STYLE_REFERENCES.md)** — what specifically makes FF6, Chrono Trigger, NES Mega Man, Pokémon Gen 1, Stardew etc. look like themselves.
+8. **[ANIMATION.md](ANIMATION.md)** — idle vocabulary, key frames, squash and stretch.
 
 ## Per-style deep dives
 

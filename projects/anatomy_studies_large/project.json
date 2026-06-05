@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "name": "anatomy_studies_large",
+  "canvas": {
+    "width": 64,
+    "height": 80
+  },
+  "defaultFps": 4,
+  "sprites": ["standing_neutral", "walking_step", "arm_raised"],
+  "createdAt": "2026-06-05T00:00:00.000Z"
+}
