@@ -35,6 +35,10 @@ The demo sprites in `projects/demo/sprites/` (mage, peasant, megaman) violate mo
 6. User opens the editor (`npm run dev` → http://127.0.0.1:5173/) to view/refine
 7. The editor's SSE channel auto-refreshes when you write new files
 
+### Auto-refine loop: `/iterate-sprite`
+
+For higher-quality results, the user can invoke `/iterate-sprite <description>` instead of asking directly. That slash command (defined in `.claude/commands/iterate-sprite.md`) runs a generate → critique → refine loop: you produce a sprite, score it against the docs' rubric (silhouette / anatomy / color / line work / style adherence, /10), then refine the top issues, and repeat for up to 3 passes — stopping early if score reaches 9 or stops improving. Only the final winning iteration is shown to the user. Use it when the user wants a polished result without watching every intermediate pass.
+
 ## File format
 
 See `app/src/schema/sprite.ts` for the Zod schema and `projects/demo/sprites/mage_idle.sprite.json` for a canonical example.
